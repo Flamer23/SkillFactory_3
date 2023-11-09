@@ -32,6 +32,8 @@ namespace SkillFactory_3
             Console.WriteLine("{0}\n {1}\n {2}", name, age, favcolor);
 
             string str = Console.ReadLine();
+
+            double result = 5.0 / 2.0 * 3.0;
         }
     }
 }
