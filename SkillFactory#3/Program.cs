@@ -33,8 +33,15 @@ namespace SkillFactory_3
 
             string str = Console.ReadLine();
 
-            double result = 10 % 3; ;
+            double result = 10 % 3; 
             Console.WriteLine(result);
+
+            Console.Write("Enter your name: ");
+            name = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            age = (byte)int.Parse(Console.ReadLine());
+            Console.WriteLine("Your name is {0} and age is {1} ", name, age);
+            Console.ReadKey();
         }
     }
 }
