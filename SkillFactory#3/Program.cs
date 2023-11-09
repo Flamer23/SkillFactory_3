@@ -34,6 +34,7 @@ namespace SkillFactory_3
             string str = Console.ReadLine();
 
             double result = 10 % 3; ;
+            Console.WriteLine(result);
         }
     }
 }
