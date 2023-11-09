@@ -42,6 +42,10 @@ namespace SkillFactory_3
             age = (byte)int.Parse(Console.ReadLine());
             Console.WriteLine("Your name is {0} and age is {1} ", name, age);
             Console.ReadKey();
+
+            Console.Write("What is your favorite day of week? ");
+            DayOfWeek day = (DayOfWeek)int.Parse(Console.ReadLine());
+            Console.WriteLine("Your favorite day of week is - {0}", day);
         }
     }
 }
