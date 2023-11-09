@@ -31,6 +31,7 @@ namespace SkillFactory_3
             string favcolor = "red";
             Console.WriteLine("{0}\n {1}\n {2}", name, age, favcolor);
 
+            string str = Console.ReadLine();
         }
     }
 }
