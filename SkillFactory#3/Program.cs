@@ -4,9 +4,7 @@
     {
         static void Main(string[] args)
         {
-            string MyName;
-            MyName = "Ilya";
-            Console.WriteLine(MyName);
+            Console.WriteLine("Привет, \nмир");
         }
     }
 }
