@@ -33,7 +33,7 @@ namespace SkillFactory_3
 
             string str = Console.ReadLine();
 
-            double result = 5.0 / 2.0 * 3.0;
+            double result = 10 % 3; ;
         }
     }
 }
