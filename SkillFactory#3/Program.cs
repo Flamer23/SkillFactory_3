@@ -22,6 +22,9 @@
 
             Console.WriteLine("\t Привет,\n мир!");
 
+            byte age = 21;
+            Console.WriteLine($"Мой возраст {age}");
+
 
         }
     }
