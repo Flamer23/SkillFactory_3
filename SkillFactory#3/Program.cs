@@ -2,6 +2,12 @@
 {
     internal class Program
     {
+        enum Semaphore
+        {
+            Red = 100,
+            Yellow = 200,
+            Green = 300
+        }
         static void Main(string[] args)
         {
             string MyName = "Jane";
@@ -13,6 +19,8 @@
             Console.WriteLine("MyAge " + MyAge);
             Console.WriteLine("Do I have a pet? " + HaveIApet);
             Console.WriteLine("My shoe size is " + MyShoeSize);
+
+            
         }
     }
 }
