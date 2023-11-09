@@ -46,6 +46,18 @@ namespace SkillFactory_3
             Console.Write("What is your favorite day of week? ");
             DayOfWeek day = (DayOfWeek)int.Parse(Console.ReadLine());
             Console.WriteLine("Your favorite day of week is - {0}", day);
+
+
+
+            Console.WriteLine("\nФинальная практика модуля «Анкетируем пользователей»");
+            Console.Write("Введите имя: ");
+            var name2 = Console.ReadLine();
+            Console.Write("\nВведите возраст: ");
+            var age2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("\nВведите дату рождения: ");
+            var birthdate = Console.ReadLine();
+
+            Console.WriteLine($"Вас зовут - {name2}, ваш возраст - {age2}, дата рождения - {birthdate}");
         }
     }
 }
