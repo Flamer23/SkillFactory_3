@@ -1,4 +1,6 @@
-﻿namespace SkillFactory_3
+﻿using System.Xml.Linq;
+
+namespace SkillFactory_3
 {
     internal class Program
     {
@@ -25,6 +27,9 @@
             byte age = 21;
             Console.WriteLine($"Мой возраст {age}");
 
+            string name = "Ilya";
+            string favcolor = "red";
+            Console.WriteLine("{0}\n {1}\n {2}", name, age, favcolor);
 
         }
     }
