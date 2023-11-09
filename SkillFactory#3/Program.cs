@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Привет, \nмир");
+            Console.WriteLine("Привет, \n мир");
+            Console.WriteLine('\x23');
         }
     }
 }
